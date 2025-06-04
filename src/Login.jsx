@@ -1,7 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-// import "./Login.css";
-import "./Test.css";
+import "./Login.css";
 
 function Login({ onLogin }) {
   const [isRegistering, setIsRegistering] = useState(false);
